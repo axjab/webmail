@@ -1,0 +1,20 @@
+- [ ] Confirm auth succeeded before proceeding: wmail auth -> OK
+    - [ ] Identify some sort of stable sentinel past login to provide confirmation
+- [ ] On auth failure, retry auth: wmail auth -> EXIT
+- [ ] Dispatch notification (-> db -> NATS) on unread messages [daemon]
+- [ ] List emails, identify by reference: wmail ls (no filter means default filter)
+- [ ] Filter unread email: wmail ls <filter>
+- [ ] Get email: wmail <filter>
+    - [ ] Output details
+- [ ] Decide what wmail no-arg does, perhaps output summary?
+- [ ] Compose email: wmail write|compose
+- [ ] Send email: wmail send
+- [ ] Archive email: wmail arch
+- [ ] Delete email: wmail rm
+- [ ] Forward email: wmail fwd (pre-configured to send to x@alj.cx)
+- [ ] Control daemon: wmail daemon
+- [ ] Write daemon
+- [ ] Write CLI
+- [ ] Deploy
+
+- [ ] Do same for calendar, using outlook OR teams
